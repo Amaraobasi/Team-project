@@ -688,3 +688,83 @@ i{
     position: relative;
     bottom: 22em;
 }
+
+
+
+
+.contact-body * {
+    color: unset;
+    text-decoration: none;
+}
+
+
+.contact-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 6rem;
+    padding: 1rem;
+}
+
+.main-text h1 {
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+}
+
+.main-text p {
+    padding-top: 35px;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-text .main-btn {
+    margin-top: 20px;
+    margin-left: 30%;
+    border: 1px solid;
+    background-color: red;
+    border-radius: 30px;
+    padding: 25px;
+    align-items: center;
+    width: 40%;
+    color: white;
+}
+
+.main-btn:hover {
+    background-color: #660712;
+}
+
+
+.main-bottom * {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-buttons a {
+    text-decoration: none;
+    color: unset;
+    align-items: center;
+}
+
+.contact-buttons i {
+    color: red;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-buttons {
+    gap: 200px;
+}
