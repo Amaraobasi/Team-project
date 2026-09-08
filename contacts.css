@@ -980,3 +980,95 @@ i{
     gap: 20px;
     width: 100%;
 }
+
+
+.partners * {
+    margin: 0;
+    padding: 0;
+}
+
+.partners-text h1 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-text p {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 20%;
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.media-box .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.lastbox {
+    padding-top: 80px;
+}
+
+.box-text {
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    width: 90%;
+    height: 40vh;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.boxtexting h3 {
+    margin-top: 15%;
+    color: white;
+    font-size: 50px;
+    width: 500px;
+}
+
+.boxtexting p {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    width: 500px;
+}
+
+.visitbtn {
+    margin-top: 10%;
+    margin-left: 20%;
+  display: inline;
+  border: 1px solid #eee;
+  padding: 12px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  height: 50px;
+}
+
+.visitbtn {
+  background-color: #e52e2e;
+}
