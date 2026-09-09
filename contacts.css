@@ -731,7 +731,7 @@ i{
     margin-top: 20px;
     margin-left: 30%;
     border: 1px solid;
-    background-color: red;
+    background-color:green;
     border-radius: 30px;
     padding: 25px;
     align-items: center;
@@ -751,7 +751,7 @@ i{
 }
 
 .contact-buttons i {
-    color: red;
+    color:green;
 }
 
 .contact-buttons {
@@ -770,7 +770,7 @@ i{
     padding: 0;
     width: 100%;
     height: 80vh;
-    background-color: #FFF5F5;
+    background-color:rgb(204, 243, 204);
 }
 
 .middle {
@@ -805,23 +805,24 @@ i{
 .contact-form input {
     height: 50px;
     border-radius: 10px;
-    background-color: white;
+    background-color:rgb(196, 245, 196);
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid grey;
+    border: 1px solid rgb(137, 241, 137);
 }
 
 .contact-form textarea {
     height: 100px;
-    background-color: white;
     margin-bottom: 15px;
+    background-color:rgb(196, 245, 196);
+
 }
 
 .contact-form button {
     height: 50px;
     border: 1px solid;
     border-radius: 30px;
-    background-color: red;
+    background-color:green;
     color: white;
     padding: 20px;
     align-items: center;
@@ -858,12 +859,12 @@ i{
     display: flex;
     justify-content: center;
     width: 100%;
-    color: black;
+    color: rgb(2, 41, 2);
 }
 
 .last-big {
-    border: 1px solid black;
-    background-color: white;
+    border: 1px solid rgb(99, 242, 99);
+    background-color: rgb(170, 243, 170);
     width: 70%;
     height: 100vh;
     border-radius: 10px;
@@ -887,7 +888,7 @@ i{
     border: 1px solid;
     width: 150px;
     border-radius: 30px;
-    background-color: red;
+    background-color: green;
     color: white;
     padding: 20px;
     align-items: center;
@@ -925,7 +926,7 @@ i{
 
 .last-big .botom-text h1 {
     font-size: 22px;
-    color: #7a1f2b;
+    color: rgb(3, 38, 3);
     margin: 0;
 }
 
@@ -965,11 +966,11 @@ i{
 }
 
 .visit-btn {
-  background-color: #e52e2e;
+  background-color: rgb(4, 87, 4);
 }
 
 .coming-soon-btn {
-  background-color: #f06a6a;
+  background-color: rgb(121, 234, 121);
 }
 
 .card-second {
@@ -1070,5 +1071,5 @@ i{
 }
 
 .visitbtn {
-  background-color: #e52e2e;
+  background-color: green;
 }
