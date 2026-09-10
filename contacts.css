@@ -902,7 +902,7 @@ i{
     border: 1px solid;
     width: 150px;
     border-radius: 30px;
-    background-color: rgb(229, 242, 229);
+    background-color: rgb(216, 241, 216);
     color: white;
     padding: 20px;
     align-items: center;
@@ -1088,4 +1088,119 @@ i{
 
 .visitbtn {
   background-color: green;
+}
+
+
+.footer{
+  background-color: #062e0b;
+  color: white;
+  padding: 40px 7% 16px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-box {
+  width: 23%;
+}
+
+.footer-logo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 12px;
+}
+.footer-box .all {
+    color:  rgb(200, 238, 200);
+      font-family: "Playfair", serif;
+      font-style: italic;
+      font-weight: 900;
+      font-size: 14px;
+
+}
+.footer-box i{
+    font-size: 20px;
+    color:  rgb(200, 238, 200);
+    transform: translatex(-25px);
+
+}
+
+
+.footer-box h3 {
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.footer-box p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.footer-box a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 11px 0;
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid white;
+  margin-top: 30px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 15px;
+}
+
+.cart {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: #111;
+  color: white;
+  font-size: 19px;
+}
+
+@media (max-width: 700px) {
+  .footer-content {
+    flex-wrap: wrap;
+  }
+
+  .footer-box {
+    width: 45%;
+  }
+}
+
+ @media (max-width: 500px) {
+  .footer-box {
+    width: 100%;
+  }
 }

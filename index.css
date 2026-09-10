@@ -70,23 +70,8 @@ i{
     font-size: 11px
 
 }
-/* Mobile */
 
-@media (max-width: 600px) {
-  .body {
-    flex-wrap: wrap;
-  }
 
-  .nav-link {
-    width: 20%;
-  }
-}
-
- @media (max-width: 500px) {
-  .navbar {
-    width: 100%;
-  }
-}
 .container{
     display: flex;
     justify-content: center;
@@ -802,8 +787,6 @@ i{
   color: white;
   font-size: 19px;
 }
-
-/* Mobile */
 
 @media (max-width: 700px) {
   .footer-content {
