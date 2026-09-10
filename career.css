@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     color: #333;
 }
 
@@ -42,11 +42,32 @@ body {
     align-items: center;
 }
 
-.nav-links a,
+.nav-links a {
+    text-decoration: none;
+    color: rgb(38, 44, 38);
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+}
 .nav-right a {
     text-decoration: none;
-    color: #333;
+    color: rgb(3, 24, 3);
+    font-weight: 500;
+    transition: all 0.3s ease;
+
 }
+.nav-links a:hover {
+    background-color: rgb(4, 80, 4);
+    color: white;
+    font-weight: 600;
+}
+.nav-right a:hover {
+    color: red;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgb(4, 50, 4);
+}
+
+
 
 .cart {
     font-size: 18px;
@@ -70,6 +91,15 @@ body {
     cursor: pointer;
 }
 
+.nav-right button:hover {
+    background-color: rgb(197, 242, 197);
+    color: rgb(4, 50, 4);
+    font-weight: 600;
+    border: 2px solid rgb(4, 50, 4);
+    border-style: inset;
+}
+
+
 
 i{
     color: green;
@@ -86,20 +116,24 @@ i{
 
 .hero h1 {
     font-size: 48px;
-    font-weight: 400;
-
+    font-weight: 700;
     margin-bottom: 10px;
+    color: rgb(4, 50, 4);
 }
 
 .hero h2 {
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: playfair display, serif;
 
     margin-bottom: 15px;
 }
 
 .hero p {
     font-size: 17px;
+    font-family: playfair display, serif;
+    font-weight: 500;
+
 }
 
 
@@ -123,30 +157,32 @@ i{
 
 .job-text h2 {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: playfair display, serif;
 }
 
 .about {
     width: 330px;
+    font-family: playfair display, serif;
+
 }
 
 .about img {
     width: 100%;
     height: 160px;
-
     object-fit: cover;
-
     margin-bottom: 20px;
 }
 
-.about h2 {
-    font-size: 25px;
-    font-weight: 400;
-
+.about h{
+    font-size: 40px;
+    font-weight: 600;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
 .about p {
+    margin-top: 10px;
     line-height: 1.7;
     font-size: 16px;
 }
@@ -199,7 +235,10 @@ footer {
 .about-footer {
     flex: 1;
 }
-
+.team-image {
+    width: 100px;
+    height: 200px;
+}
 
 
 
