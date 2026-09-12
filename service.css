@@ -24,6 +24,8 @@ i{
     box-shadow: 0px 1px 4px rgb(19, 111, 6);
     height: 80px;
     background-color: white;
+    position: fixed;
+    top: 0;
     
 
 
@@ -69,4 +71,367 @@ i{
     font-weight: 800;
     font-size: 11px
 
+}
+
+/* SERVICE SECTION */
+
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #a3e888;
+    background: linear-gradient(rgba(0, 1, 10, 0.65), rgba(0, 0, 0, 0.65)),
+        url('https://i.pinimg.com/736x/36/f3/98/36f398ed769b0478c0cc8d100359c5ff.jpg') center/cover no-repeat;
+    color: #111111;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.hero-comfort {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px 40px 20px;
+    margin-bottom: 20px;
+    background-image: radial-gradient white;
+    background-size: 16px 16px;
+    background-position: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-style: oblique;
+    font-weight: 800;
+    color: white;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    color: white;
+    line-height: 1.6;
+    max-width: 620px;
+    margin: 0 auto 32px auto;
+}
+
+.btn-red-hero {
+    display: inline-block;
+    background-color: #023f089a;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 28px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn-red-hero:hover {
+    background-color: #025306;
+}
+
+.page-container {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f0f0f0;
+}
+
+.card-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 0.85rem;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.btn-card {
+    background-color: #06670e;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+    align-self: flex-start;
+    text-decoration: none;
+}
+
+.why-choose-section {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 40px 20px;
+    box-shadow: rgb(2, 68, 2);
+    border: 1px solid #f0f0f0;
+    text-align: center;
+}
+
+.why-choose-section .title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.why-choose-section .subtitle {
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.features-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.row-top {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    padding-left: 10px;
+}
+
+.row-bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    padding-left: 175px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 250px;
+    text-align: left;
+}
+
+.icon-wrapper {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    background-color: rgb(199, 240, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-text {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: #111111;
+    font-weight: 500;
+}
+
+.hospitality-banner {
+    
+    height: 350px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url('https://i.pinimg.com/1200x/c6/e9/7e/c6e97ee6ba8eae087e7c8318d2ff4030.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.hospitality-banner h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hospitality-banner p {
+    max-width: 580px;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.whatsapp-banner {
+    background-color: #080808;
+    border-radius: 16px;
+    padding: 35px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 10em;
+}
+
+.whatsapp-banner h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.whatsapp-banner p {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+
+/* footer section */
+
+.footer{
+    width:103%;
+  position: static;
+  background-color: #062e0b;
+  color: white;
+  padding: 40px 6% 16px;
+  font-family: Arial, sans-serif;
+  margin-top: 10em 0%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-box {
+  width: 23%;
+}
+
+.footer-logo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 12px;
+}
+.footer-box .all {
+    color:  rgb(200, 238, 200);
+      font-family: "Playfair", serif;
+      font-style: italic;
+      font-weight: 900;
+      font-size: 14px;
+
+}
+.footer-box i{
+    font-size: 18px;
+    color:  rgb(200, 238, 200);
+    transform: translatex(-25px);
+
+}
+
+
+.footer-box h3 {
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.footer-box p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.footer-box a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 11px 0;
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid white;
+  margin-top: 30px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 15px;
+}
+
+.cart {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: #111;
+  color: white;
+  font-size: 19px;
+}
+
+@media (max-width: 700px) {
+  .footer-content {
+    flex-wrap: wrap;
+  }
+
+  .footer-box {
+    width: 45%;
+  }
+}
+
+ @media (max-width: 500px) {
+  .footer-box {
+    width: 100%;
+  }
 }
