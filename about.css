@@ -107,8 +107,13 @@ section {
     border: none;
     cursor: pointer;
     padding: 100px auto;
-    background-color: red;
+    background-color: #0da10d;
     color: white;
+}
+
+.btn-two:hover {
+    background-color: #eb2625;
+    box-shadow: 0 0 25px green;
 }
 
 .section-two {
@@ -147,7 +152,7 @@ section {
 .fa-circle-stop {
     padding-bottom: 15px;
     font-size: 80px;
-    color: #eb2625;
+    color: #008000;
 }
 
 .eye-container {
@@ -169,7 +174,7 @@ section {
 .fa-eye {
     padding-bottom: 15px;
     font-size: 80px;
-    color: #eb2625;
+    color: #008000;
 }
 
 .section-four {
